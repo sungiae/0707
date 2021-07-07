@@ -19,7 +19,9 @@ public class MainClass2 {
 		System.out.println(Integer.toOctalString(n)); //8
 		System.out.println(Integer.parseInt("FF",16)); // 0xFF => 16진법 => 10진법 => 255
 		System.out.println(Integer.parseInt("100",2)); 
-		System.out.println(Integer.parseInt("100",8)); 
+		System.out.println(Integer.parseInt("100",8));
+		boolean boo=Boolean.parseBoolean("true"); // parse = 문자열 자체 데이터를 바꿔줌
+		System.out.println(boo);
 	}
 
 }
